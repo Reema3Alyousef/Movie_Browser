@@ -16,16 +16,13 @@ class App extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    fetch(`https://api.themoviedb.org/3/search/movie?api_key=${this.apiKey}&query=${this.state.searchInput}`)
-  .then(data => data.json())
-  .then(data => {
-    console.log(data);
-    this.setState({movies: [...data.results]})
+    axios.get(`https://api.themoviedb.org/3/search/movie?api_key=${this.apiKey}&query=${this.searchInput}`)
+      .then(res => {
+    this.setState({movies: [...res.data.results]})
   })
   }
 
   handleChange = (e) => {
-   
     this.setState({searchInput: e.target.value})
   }
   
