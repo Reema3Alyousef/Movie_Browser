@@ -1,23 +1,10 @@
 
-<div dir="rtl">
+
   
  # مشروع الإسبوع الثاني 
   
-  <br/>
-  <br/>
+  Simple movie list implemented in React using themoviedb API. User can search for any movie, and display its information easily 👌
   
-  ## الوصف
-اختيار فكرة المشروع راجعة للطالب بحيث يتم ادراج المتطلبات ادناه كاملةً. 
-<br>
-<br>
-
-##  المتطلبات 
-- تطبيق State
-- تطبيق دالتين على الأقل من دوال Lifecycle
-- تطبيق axios
-
+  ![alt text](https://media3.giphy.com/media/B160Z37OtpJVcPAVmL/giphy.gif?cid=790b7611abea9ce04b2698a1c1005023d812ddd068a8cb18&rid=giphy.gif&ct=g)
   
-   **ملاحظة** :
-  بعد الانتهاء من تنفيذ المشروع يرجى إضافة صورة من واجهة الصفحة في ملف README.md
 
-  </div>
